@@ -1,16 +1,16 @@
+h1 {text-align: center;}
+p {text-align: center;}
 body, h1, h2, h3, p, form {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Basic styling */
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
 }
 
-/* Banner Section */
 .banner {
     position: relative;
     overflow: hidden;
@@ -26,7 +26,6 @@ body {
     height: auto;
 }
 
-/* Our Package Section */
 #packages {
     padding: 20px;
     text-align: center;
@@ -36,7 +35,6 @@ body {
     margin: 10px 0;
 }
 
-/* Contact Form */
 #contact {
     padding: 20px;
 }
@@ -68,7 +66,6 @@ button:hover {
     background-color: #0056b3;
 }
 
-/* Responsive Design */
 @media (max-width: 768px) {
     .banner-slide {
         flex-direction: column;
